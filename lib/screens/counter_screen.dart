@@ -26,14 +26,14 @@ class _CounterScreenState extends State<CounterScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Screen'),
+        title: const Text('Counter'),
         elevation: 0,
       ),
       body: Center(// El Widget Center alinea horizontalmente
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, //Para ubicar verticalmente
           children: <Widget> [
-            const Text("Número de Clicks",style: fontSize30),
+            const Text("Clicks",style: fontSize30),
             Text('$_counter',style: fontSize30)
           ],
         ),

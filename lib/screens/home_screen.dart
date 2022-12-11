@@ -1,5 +1,5 @@
-import 'package:app_flutter/router/app_routes.dart';
-import 'package:app_flutter/themes/app_theme.dart';
+import 'package:f1_example_app_flutter/router/app_routes.dart';
+import 'package:f1_example_app_flutter/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {

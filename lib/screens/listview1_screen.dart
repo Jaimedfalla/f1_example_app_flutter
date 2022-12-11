@@ -1,7 +1,30 @@
 import 'package:flutter/material.dart';
 
 class ListView1Screen extends StatelessWidget {
-  final options = const ['Megaman','Metal Gear','Super Smash','Final Fantasy'];
+  final options = const [
+    'Bahrain International Circuit',
+    'Jeddah Street Circuit',
+    'Albert Park',
+    'Autodromo Enzo e Dino Ferrari',
+    'Miami International Autodrome',
+    'Circuit de Catalunya',
+    'Circuit de Monaco',
+    'Baku City Circuit',
+    'Circuit Gilles Villeneuve',
+    'Circuit Silverstone',
+    'Red Bull Ring',
+    'Circuit Paul Ricard',
+    'Hungaroring',
+    'Spa-Francorchamps',
+    'Circuit Zandvoort',
+    'Autodromo Nazionale Monza',
+    'Marina Bay Street Circuit',
+    'Suzuka Circuit',
+    'Circuit of the Americas',
+    'Autodromo Hermanos Rodriguez',
+    'Autodromo Jose Carlos Pace Interlagos',
+    'Yas Marina Circuit'
+  ];
 
   const ListView1Screen({Key? key}) : super(key: key);
   
@@ -9,7 +32,7 @@ class ListView1Screen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("List View tipo 1"),
+        title: const Text("Circuits"),
       ),
       body: ListView.separated(
         itemCount: options.length,

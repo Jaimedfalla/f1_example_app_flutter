@@ -1,6 +1,6 @@
-import 'package:app_flutter/router/app_routes.dart';
-import 'package:app_flutter/themes/app_theme.dart';
 import 'package:flutter/material.dart';
+import 'package:f1_example_app_flutter/router/app_routes.dart';
+import 'package:f1_example_app_flutter/themes/app_theme.dart';
 
 void main() => runApp(const MyApp());
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       routes: AppRoutes.getMenuRoutes(),
       /*Para crear una ruta por defecto sobre todo para cuando
       * la ruta a donde nos queremos redirigir no existe */
-      onGenerateRoute: AppRoutes.onGenerateRout,
+      onGenerateRoute: AppRoutes.onGenerateRoute,
       theme: AppTheme.lightTheme
     );
   }
