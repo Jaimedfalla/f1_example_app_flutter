@@ -6,13 +6,15 @@ class AppRoutes
 {
   static const initialRouter = 'home';
   static final menuOptions = <MenuOption>[
-    MenuOption(route: 'alert'   ,name: 'Alert'              ,screen: const AlertScreen()    ,icon: Icons.notifications),
-    MenuOption(route: 'animated',name: 'Animated Container' ,screen: const AnimatedScreen() ,icon: Icons.play_circle_outline_rounded),
-    MenuOption(route: 'cirtuits',name: 'Circuits'           ,screen: const ListView1Screen(),icon: Icons.view_stream),
-    MenuOption(route: 'counter' ,name: 'Counter'            ,screen: const CounterScreen()  ,icon: Icons.alarm),
-    MenuOption(route: 'avatar'  ,name: 'Drivers'            ,screen: const AvatarScreen()   ,icon: Icons.supervised_user_circle_outlined),
-    MenuOption(route: 'suscribe',name: 'Suscribe'           ,screen: const InputsScreen()   ,icon: Icons.app_registration),
-    MenuOption(route: 'card'    ,name: 'Teams'              ,screen: const CardScreen()     ,icon: Icons.card_membership)
+    MenuOption(route: 'alert'           ,name: 'Alert'              ,screen: const AlertScreen()            ,icon: Icons.notifications),
+    MenuOption(route: 'animated'        ,name: 'Animated Container' ,screen: const AnimatedScreen()         ,icon: Icons.play_circle_outline_rounded),
+    MenuOption(route: 'cirtuits'        ,name: 'Circuits'           ,screen: const ListView1Screen()        ,icon: Icons.view_stream),
+    MenuOption(route: 'counter'         ,name: 'Counter'            ,screen: const CounterScreen()          ,icon: Icons.alarm),
+    MenuOption(route: 'avatar'          ,name: 'Drivers'            ,screen: const AvatarScreen()           ,icon: Icons.supervised_user_circle_outlined),
+    MenuOption(route: 'gallery'         ,name: 'Gallery'            ,screen: const SliderScreen()           ,icon: Icons.collections),
+    MenuOption(route: 'listviewbuilder' ,name: 'List View Builder'  ,screen: const ListViewBuilderScreen()  ,icon: Icons.format_list_bulleted),
+    MenuOption(route: 'suscribe'        ,name: 'Suscribe'           ,screen: const InputsScreen()           ,icon: Icons.app_registration),
+    MenuOption(route: 'card'            ,name: 'Teams'              ,screen: const CardScreen()             ,icon: Icons.card_membership)
   ];
       
   static Route<dynamic>? onGenerateRoute(RouteSettings settings){
